@@ -1,130 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="icon" type="image/png" sizes="300x250" href="https://cdn.glitch.com/be08e33b-a365-42fb-b26b-1c53dcc896ec%2Fenix.png?v=1614656415028">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/now-ui-kit.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
-    <title>Enix - Discord Bot</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Montserrat Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+  <!-- Changes this to your bot's name -->
+  <title>Discord Bot Website Template</title>
+
+  <!-- Change the content attribute's value to your bot's description -->
+  <meta name="description" content="An opensource discord bot website template that you can use to make your bot seem more professional!">
+
+  <!-- Change the content attribute's value to your name -->
+  <meta name="author" content="TrustedMercury">
+
+  <link rel="stylesheet" href="styles/theTrendingStyle.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/css/all.css" />
+
 </head>
-<body>
-<nav class="navbar navbar-expand-lg bg-transparent">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
-    </button>
-    <img src="https://cdn.glitch.com/be08e33b-a365-42fb-b26b-1c53dcc896ec%2Fenix.png?v=1614656415028" width="50" height="50">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#/">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/features">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/features">Dashboard</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/features">Subscribtion</a>
-            </li>
-        </ul>
-        <div class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Documentation
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/commands">Commands</a>
-                <a class="dropdown-item" href="/tutorials">Tutorials</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/server-settings">Server settings</a>
-            </div>
-        </div>
-        <div class="nav-item">
-            <a class="nav-link" href="/about">About</a>
-        </div>
-        <button class="btn login-btn btn-outline-accent my-2 my-sm-0" style="font-size: 10px !important;font-family: poppins !important;">LOGIN</button>
+
+<body class="bg-shinyGray overflow-x-hidden">
+  <nav id="navigationBar" class="flex flex-row items-center justify-between p-6 bg-sweetBlack">
+    <div class="left flex flex-row items-center ml-10 md:ml-20 text-white">
+      <img src="images/botLogo.png" width="48px" height="48px" class="mr-2 hidden md:inline pointer-events-none noselect" />
+      <a href="" class="mx-4 text-xl hover:text-blurple">Home</a>
+      <a href="commands.html" class="mx-4 text-xl hover:text-blurple hidden md:inline">Commands</a>
     </div>
-</nav>
-<div class="heading">
-    <h1 class="display-5 title">It's time to use Bot in your server.</h1>
-    <p class="subtitle">Bot is a multi-purpose bot ready to skill up and boost up your Discord server<br />Also features auto-moderation, administration, music and much more!</p>
-    <a class="btn btn-primary btn-lg" href="about.html" target="_blank" role="button">About</a>
-    <a class="btn btn-secondary btn-lg" href="https://discord.com/oauth2/authorize?client_id=750488229936889918&permissions=473001191&scope=bot target="_blank" role="button">Add to server</a>
-    <br /><br /><br /><br /><br /><br />
-</div>
-<div class="features">
-    <div class="title">Features of Bot</div>
-    <div class="subtitle">We provide you the best features in Bot!</div>
-    <div class="cards">
-        <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Fast</h5>
-            <p class="card-text">The Enix Discord bot is a fast and 24/7 Discord bot.</p>
-        </div>
+    <div class="right mr-10 md:mr-20">
+      <a href="YOUR-BOT-INVITE-HERE" target="_blank" class="px-8 py-3 whitespace-no-wrap bg-blurple text-white rounded-lg text-xl font-semibold hover:bg-beautyPurple"><i class="fab fa-discord mr-1"></i> Invite</a>
     </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Secrue</h5>
-                <p class="card-text">The Enix Bot is a Secrue and user-friendly bot, It contains NO NSFW!</p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Happy Reviews</h5>
-                <p class="card-text">⭐⭐⭐⭐⭐⠀⠀⠀⠀⠀⠀⠀⠀⠀"The Enix Discord Bot helped me moderate my Discord bot, Also very happy users.</p>
-            </div>
-        </div>
+  </nav>
+
+  <div id="container" class="flex flex-col items-center justify-center">
+    <div class="flex flex-col items-center justify-center pt-40 text-center">
+      <span class="text-2xl md:text-5xl font-semibold text-white">Changing the way servers work</span>
+      <span class="text-gray-400 text-lg md:text-xl max-w-xl font-light">Helping servers grow exponentially with a simple solution. Make your server active and entertain your community with a simple solution - <b>a single discord bot</b>!</span>
+      <div class="flex flex-col md:flex-row mt-8">
+        <a href="YOUR-BOT-INVITE-HERE" target="_blank" class="text-2xl hvr-grow bg-blurple p-4 md:px-8 mx-4 my-4 rounded-lg">Invite the bot now!</a>
+        <a href="https://discord.gg/Q2ceSvrm2n" target="_blank" class="text-2xl hvr-grow text-white bg-sweetBlack p-4 md:px-8 mx-4 my-4 rounded-lg border-blurple border-2">Join the Support Server</a>
+      </div>
     </div>
-</div>
-<div class="statistics">
-    <div class="cards">
-        <div class="card statistic" style="width: 18rem;">
-            <div class="card-body">
-                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">30</h1>
-                <p style="font-weight: bold !important;font-size: 20px !important;">servers</p>
-            </div>
+    <svg class="bg-blurple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1D1E23" fill-opacity="1" d="M0,160L48,138.7C96,117,192,75,288,74.7C384,75,480,117,576,160C672,203,768,245,864,261.3C960,277,1056,267,1152,240C1248,213,1344,171,1392,149.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="flex flex-col md:flex-row items-center justify-center w-full bg-blurple">
+      <img src="images/discordUI.png" class="max-w-xs md:max-w-5xl noselect pointer-events-none" />
+      <div class="flex flex-col items-center justify-center noselect">
+        <div class="flex flex-col items-center text-4xl mb-4">
+          <span class="font-montserrat font-black">200+</span>
+          <span class="font-montserrat font-black">SERVERS</span>
         </div>
-        <div class="card statistic" style="width: 18rem;">
-            <div class="card-body">
-                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">1200+</h1>
-                <p style="font-weight: bold !important;font-size: 20px !important;">users</p>
-            </div>
+        <div class="flex flex-col items-center text-4xl my-4">
+          <span class="font-montserrat font-black">14500+</span>
+          <span class="font-montserrat font-black">USERS</span>
         </div>
-        <div class="card statistic" style="width: 18rem;">
-            <div class="card-body">
-                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">474</h1>
-                <p style="font-weight: bold !important;font-size: 20px !important;">channels</p>
-            </div>
+        <div class="flex flex-col items-center text-4xl mt-4">
+          <span class="font-montserrat font-black">2300+</span>
+          <span class="font-montserrat font-black">CHANNELS</span>
         </div>
+      </div>
     </div>
-</div>
-<div class="page_end">
-    <div class="start">
-        <div class="card">
-            <div class="card-body gs-card">
-                <div class="title">Ready to try Bot?</div>
-                <div class="subtitle">Invite Bot and start giving your server cool perks!</div>
-                <br />
-                <a class="btn btn-primary btn-lg" href="https://discord.com/oauth2/authorize?client_id=750488229936889918&permissions=473001191&scope=bot" role="button">Get started</a>
-            </div><br />
-        </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7289DA" fill-opacity="1" d="M0,224L48,240C96,256,192,288,288,304C384,320,480,320,576,288C672,256,768,192,864,138.7C960,85,1056,43,1152,48C1248,53,1344,107,1392,133.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="flex flex-row items-center justify-center mb-10">
+      <span class="text-lg text-gray-400 font-semibold">Copyright © Kevin Thomas 2020</span>
     </div>
-    <div class="footer">
-        <div class="bot-footer">
-            <img src="https://cdn.glitch.com/be08e33b-a365-42fb-b26b-1c53dcc896ec%2Fenix.png?v=1614656415028" width="150"><br />
-            Copyright © Zynf#7395 - 2021
-        </div><br/>
-        <div class="nouridio">design by <a href="https://twitter.com/Nouridio"> nouridio</a></div>
-    </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="js/now-ui-kit.min.js"></script>
+  </div>
+
 </body>
+
 </html>
